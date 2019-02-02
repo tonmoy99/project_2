@@ -105,26 +105,46 @@
 }
 
 .link{
-        background-color: white;
+
     width: 349px;
     height: 65px;
     position: relative;
     top: 140px;
     left: 44px;
 
+
 }
 
 .link a:nth-child(1){
-    color: red;
-
+    padding: 7px 15px;
+    background-color: #f39c12;
+    color: white;
+    position: relative;
+    top: 23px;
+    left: 15%;
+    border-radius: 4px;
 }
+
+
+
 
 .link a:nth-child(2){
-    color: yellow;
-
+    padding: 7px 25px;
+    background-color: #f39c12;
+    color: white;
+    position: relative;
+    top: 23px;
+    left: 25%;
+    border-radius: 4px;
 }
 
 
+
+.banner-content{
+    text-align: center;
+    color: white;
+
+}
 
 
 
@@ -158,12 +178,38 @@
     .banner-area{
         text-align: center;
     }
-    
+
     .imac{
-        width: 100%;
-        margin: auto;
-        
+        width: 60%;
+        margin: auto 20%;
     }
+
+    .link a:nth-child(1){
+        position: relative;
+        top: 23px;
+        left: -5%;
+
+    }
+
+
+
+
+    .link a:nth-child(2){
+
+        position: relative;
+        top: 23px;
+        left: 5%;
+
+    }
+
+
+    .banner-content{
+        text-align: center;
+        color: black;
+
+    }
+
+
 
 }
 
@@ -194,6 +240,11 @@
     }
 
 
+    .imac{
+        width: 70%;
+        margin: auto 15%;
+    }
+
     .Services{
         margin-left: 15%;
         margin-right: 15%;
@@ -202,7 +253,110 @@
 
 }
 
+@media only screen and (max-width: 638px){
+    .col-sl-1 {width: 8.33%;}
+    .col-sl-2 {width: 16.66%;}
+    .col-sl-3 {width: 25%;}
+    .col-sl-4 {width: 33.33%;}
+    .col-sl-5 {width: 41.66%;}
+    .col-sl-6 {width: 50%;}
+    .col-sl-7 {width: 58.33%;}
+    .col-sl-8 {width: 66.66%;}
+    .col-sl-9 {width: 75%;}
+    .col-sl-10 {width: 83.33%;}
+    .col-sl-11 {width: 91.66%;}
+    .col-sl-12 {width: 100%;}
 
 
+    .logo{
+        float: none;
+        width: 45%;
+        margin: auto;
+    }
+
+    .menu ul{
+        float: none;
+        padding-top: 15px;
+        width: 60%;
+        margin: auto 20%;
+        padding-bottom: 20px;
+    }
+
+    .header-area{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .imac{
+        width: 70%;
+        margin: auto 15%;
+    }
+
+    .imac{
+        background-image: url('../images/imac.png');
+        height: 400px;
+        background-repeat: no-repeat;
+        background-size: 330px;
+        background-position-x: 30px;
+        background-position-y: 20px;
+
+    }
+
+    .link a:nth-child(1){
+        padding: 7px 15px;
+        background-color: #f39c12;
+        color: white;
+        position: relative;
+        top: 0px;
+        left: -10%;
+        border-radius: 4px;
+    }
+
+
+    .link a:nth-child(2){
+        padding: 7px 25px;
+        background-color: #f39c12;
+        color: white;
+        position: relative;
+        top: 0px;
+        left: 0%;
+        border-radius: 4px;
+    }
+
+
+
+
+}
+
+@media only screen and (max-width: 574px){
+    .menu ul{
+        float: none;
+        padding-top: 15px;
+        width: 70%;
+        margin: auto 15%;
+        padding-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 494px){
+    .menu ul{
+        float: none;
+        padding-top: 15px;
+        width: 80%;
+        margin: auto 10%;
+        padding-bottom: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 436px){
+    .menu ul{
+        float: none;
+        padding-top: 15px;
+        width: 90%;
+        margin: auto 5%;
+        padding-bottom: 20px;
+    }
+}
 
 
